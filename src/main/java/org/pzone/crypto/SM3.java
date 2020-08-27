@@ -209,5 +209,6 @@ public class SM3 {
 
     public static void main(String[] args) throws IOException {
         System.out.println(SM3.byteArrayToHexString(SM3.hash("test sm3 hash".getBytes())));
+        System.out.println("sm3修改了");
     }
 }
