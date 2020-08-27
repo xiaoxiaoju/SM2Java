@@ -811,7 +811,7 @@ public class SM2 {
 		System.out.print("密文:");
 		SM2.printHexString(data);
 		System.out.println("解密后明文:" + sm02.decrypt(data, privateKey));
-
+        System.out.println("hahhahha");
 		System.out.println("-----------------签名与验签-----------------");
 		String IDA = "Heartbeats";
 		String M = "要签名的信息";
